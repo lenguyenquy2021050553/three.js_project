@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô phỏng</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #switch-btn1, #switch-btn2, #switch-btn3, #switch-btn4 {
+            position: absolute;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        #switch-btn1 { top: 10px; left: 10px; }
+        #switch-btn2 { top: 10px; left: 120px; }
+        #switch-btn3 { top: 10px; left: 230px; }
+        #switch-btn4 { top: 10px; left: 340px; }
+    </style>
+</head>
+<body>
+
+<button id="switch-btn1">Mô phỏng cây</button>
+<button id="switch-btn2">Mô phỏng rễ</button>
+<button id="switch-btn3">Mô phỏng thân</button>
+<button id="switch-btn4">Mô phỏng lá</button>
+
+<script type="module" src="./main.js"></script>
+<script src="//cdn.jsdelivr.net/gh/mrdoob/three.js@r151/build/three.js"></script>
+</html>
